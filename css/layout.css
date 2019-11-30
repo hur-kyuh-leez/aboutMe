@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -113,9 +113,9 @@ header .scrolldown a {
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
-   -moz-transition: all .3s ease-in-out;
+   /* -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
-   transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out; */
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
@@ -172,10 +172,10 @@ ul#nav li a {
    color: #fff;
 
 	-webkit-transition: color .2s ease-in-out;
-	-moz-transition: color .2s ease-in-out;
+	/* -moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
 	-ms-transition: color .2s ease-in-out;
-	transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out; */
 }
 
 ul#nav li a:active { background-color: transparent !important; }
@@ -327,32 +327,26 @@ ul#nav li.current a { color: #F06000; }
 
 .python {
   	width: 85%;
-  	-moz-animation: python 2s ease;
-  	-webkit-animation: python 2s ease;
+  	-webkit-animation: python 5s ease;
 }
 .java {
   	width: 40%;
-  	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .web {
   	width: 30%;
-  	-moz-animation: web 2s ease;
   	-webkit-animation: web 2s ease;
 }
 .database {
   	width: 60%;
-  	-moz-animation: database 2s ease;
   	-webkit-animation: database 2s ease;
 }
 .swift {
   	width: 20%;
-  	-moz-animation: swift 2s ease;
   	-webkit-animation: swift 2s ease;
 }
 .editing {
   	width: 25%;
-  	-moz-animation: editing 2s ease;
   	-webkit-animation: editing 2s ease;
 }
 
@@ -407,11 +401,11 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
    position: relative;
 
-   -webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+	/* -moz-transition: all 0.3s ease-in-out; */
+	/* -o-transition: all 0.3s ease-in-out; */
+	/* -ms-transition: all 0.3s ease-in-out; */
+	/* transition: all 0.3s ease-in-out; */
 }
 .portfolio-item .item-wrap a {
    display: block;
@@ -431,9 +425,9 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=0);
 
    -webkit-transition: opacity 0.3s ease-in-out;
-	-moz-transition: opacity 0.3s ease-in-out;
+	/* -moz-transition: opacity 0.3s ease-in-out;
 	-o-transition: opacity 0.3s ease-in-out;
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out; */
 
    background: url(../images/overlay-bg.png) repeat;
 }
@@ -451,9 +445,9 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=0);
 
    -webkit-transition: opacity 0.3s ease-in-out;
-	-moz-transition: opacity 0.3s ease-in-out;
-	-o-transition: opacity 0.3s ease-in-out;
-	transition: opacity 0.3s ease-in-out;
+	/* -moz-transition: opacity 0.3s ease-in-out; */
+	/* -o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out; */
 
    position: absolute;
    top: 50%;
@@ -539,10 +533,10 @@ ul#nav li.current a { color: #F06000; }
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
    opacity: 0;
    -webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
+	/* -moz-transition: all 200ms ease-in-out;
 	-o-transition: all 200ms ease-in-out;
 	-ms-transition: all 200ms ease-in-out;
-   transition: all 200ms ease-in-out;
+   transition: all 200ms ease-in-out; */
 }
 /* content fadein */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
@@ -968,10 +962,10 @@ footer .social-links li:first-child { margin-left: 0; }
 	background-color: #525252;
 
 	-webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
+   /* -moz-transition: all 0.2s ease-in-out;
    -o-transition: all 0.2s ease-in-out;
    -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out; */
 
    color: #fff;
    font-size: 21px;
